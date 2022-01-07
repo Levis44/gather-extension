@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Gather Extension",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://xxxx"],
+      "js": ["main.js"]
+    }
+  ]
+}
